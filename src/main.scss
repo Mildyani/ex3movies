@@ -1,0 +1,38 @@
+.card {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #eaeaf1;
+  }
+  .cards {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+  }
+  
+  img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .Title {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .tomatoScore {
+    font-size: 14px;
+  }
+  
+  .dvdReleaseDate {
+    color: #828286;
+  }
+
+  .icon {
+      width: 16px;
+  }
+
+  .movie-info {
+    text-align: center;
+  }
